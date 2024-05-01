@@ -20,9 +20,12 @@ Tiktok Codec same with Whatsapp codec, they will HD output when you upload the c
 This is the codec i have extracted from many video HD at Tiktok, Whatsapp, Youtube, Instagram
             "TikTok":
             command = f'ffmpeg -i "{input_file}" -vf "{scale_option}" -c:v h264 -profile:v high -b:v 2057k -r 60 -c:a aac -ar 44100 -ac 2 -b:a 128k "{output_filename}"'
+
             "Youtube":
             command = f'ffmpeg -i "{input_file}" -vf "{scale_option}" -c:v vp9 -b:v 18591k -r 60 -c:a aac -ar 44100 -ac 2 -b:a 127k "{output_filename}"'
+
             "Youtube Short":
             command = f'ffmpeg -i "{input_file}" -vf "{scale_option}" -c:v vp9 -b:v 9290k -r 60 -c:a aac -ar 44100 -ac 2 -b:a 127k "{output_filename}"'
+
             "Instagram":
             command = f'ffmpeg -i "{input_file}" -vf "{scale_option}" -c:v h264 -profile:v high -b:v 2549k -r 30 -c:a aac -ar 44100 -ac 2 -b:a 128k "{output_filename}"'
