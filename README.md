@@ -1,4 +1,4 @@
-## social-video-HD Converter
+# social-video-HD Converter
 i extract the output codec of Whatsapp+Tiktok+Youtube/Short+Instagram. Then place they codec to this app,
 
 You need install python first to run this app,
@@ -13,10 +13,10 @@ https://www.python.org/downloads/
 
 Rules:
 1. Basic Video must be HD at 720-4k
-2. 59 Sec Duration (or you can try more duration, in tiktok 2min i still get HD same codec)
-Then when you upload them in to Social you choose, they will still HD because the video not need to Convert again in the Social. Social will read that the video have same codec with them
+2. 59 Sec Duration (or you can try more duration, in tiktok 2min i still get HD same codec).
+`'Then when you upload them in to Social you choose, they will still HD because the video not need to Convert again in the Social. Social will read that the video have same codec with them'`
 
-##Note
+## Note
 Tiktok Codec same can use in Whatsapp too, because Tiktok also use the Whatsapp codec, they will HD output when you upload the converted video.
 
 
