@@ -4,7 +4,7 @@ i extract the output codec of Whatsapp+Tiktok+Youtube/Short+Instagram. Then plac
 You need install python first to run this app,
 https://www.python.org/downloads/
 
-
+![GUI Screenshot](gui.png)
 1. Select video in input
 2. Select output folder
 3. Select the Social Codec for your video to be HD 
